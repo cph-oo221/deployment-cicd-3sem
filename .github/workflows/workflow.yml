@@ -36,4 +36,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dat3-deployment:1.0.1
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dat3-deployment:1.0.2
